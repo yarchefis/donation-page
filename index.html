@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поддержать проект: yarchefis</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e2f;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff94e3;
+            margin-bottom: 30px;
+        }
+
+        .btn-container {
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: block;
+            margin: 15px auto;
+            padding: 15px 30px;
+            border-radius: 8px;
+            border: none;
+            font-size: 18px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn.donation-alert {
+            background-color: #2e2e2e;
+            color: #ffffff;
+        }
+
+        .btn.donation-alert:hover {
+            background-color: #1e1e1e;
+        }
+
+        .btn.tinkoff {
+            background-color: #ffdd2d;
+            color: #000;
+        }
+
+        .btn.tinkoff:hover {
+            background-color: #e6c823;
+        }
+
+        .alternative-methods {
+            margin-top: 30px;
+            padding: 15px;
+            border-top: 1px solid #ff94e3;
+        }
+
+        .alternative-methods p {
+            margin: 10px 0;
+        }
+
+        .card-number {
+            font-weight: bold;
+            color: #a0a0a0; /* Серый цвет для номера карты */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Поддержать Ярика</h1>
+
+        <div class="btn-container">
+            <!-- Donation Alerts button -->
+            <a href="https://www.donationalerts.com/r/yarchefis" class="btn donation-alert">Donation Alerts</a>
+
+            <!-- Тинькофф Банк button -->
+            <a href="https://www.tinkoff.ru/rm/fisyukov.yaroslav1/OsWgF45592" class="btn tinkoff">Перевести через Т-Банк</a>
+        </div>
+
+        <div class="alternative-methods">
+            <h2>Альтернативные методы:</h2>
+            <p>Номер карты: <span class="card-number">2200700711251255</span></p>
+        </div>
+    </div>
+</body>
+</html>
